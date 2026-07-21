@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 # Rute untuk halaman utama undangan
 @app.route("/")
-def undangan():
+def index():
     # Ini akan membaca file index.html di dalam folder 'templates'
     return render_template("index.html")
 
