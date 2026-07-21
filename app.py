@@ -3,7 +3,7 @@ from flask import Flask, render_template
 app = Flask(__name__)
 
 # Rute untuk halaman utama undangan
-@app.route("/undangan")
+@app.route("/")
 def undangan():
     # Ini akan membaca file index.html di dalam folder 'templates'
     return render_template("index.html")
